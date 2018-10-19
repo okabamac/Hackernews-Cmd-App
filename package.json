@@ -1,0 +1,28 @@
+{
+  "name": "hackernews",
+  "version": "1.0.0",
+  "description": "Get Top Post from Hackernews",
+  "main": "hackernews.js",
+  "preferGlobal": true,
+  "bin": "./hackernews.js",
+  "scripts": {
+    "test": "mocha --timeout 15000 || true"
+  },
+  "author": "Mac Okaba",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "cache-manager": "^2.9.0",
+    "cache-manager-fs": "^1.0.6",
+    "file-system-cache": "^1.0.5",
+    "node-cache": "^4.2.0",
+    "optimist": "^0.6.1",
+    "request": "^2.88.0",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
